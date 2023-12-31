@@ -4,11 +4,6 @@ import org.example.petclinic.model.Owner;
 
 import java.util.Set;
 
-public interface OwnerService {
+public interface OwnerService extends CrudService<Owner, Long>{
     Owner getByLastName(String lastName);
-    Owner getById(Long id);
-    Owner save(Owner owner);
-    Set<Owner> getAll();
-
-
 }
