@@ -3,7 +3,7 @@ package org.example.petclinic.model;
 import java.util.HashSet;
 import java.util.Set;
 
-public class Owner {
+public class Owner  extends BaseEntity{
     private String address;
     private String city;
     private String telephone;
