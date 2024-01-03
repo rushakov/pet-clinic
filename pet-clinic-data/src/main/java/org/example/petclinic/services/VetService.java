@@ -5,5 +5,5 @@ import org.example.petclinic.model.Vet;
 
 import java.util.Set;
 
-public interface VetService extends CrudService<VetService, Long>{
+public interface VetService extends CrudService<Vet, Long>{
 }
